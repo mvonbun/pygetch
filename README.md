@@ -14,6 +14,15 @@ cd pygetch
 python3 -m pip install --user getch-mvonbun
 ```
 
+or
+
+``` shell
+git pull https://github.com/mvonbun/pygetch.git
+cd pygetch
+python3 -m pip install --user --upgrade setuptools wheel
+python3 setup.py sdist bdist_wheel
+```
+
 
 ## Usage
 **Import** the module to get single characters from the command line without the
