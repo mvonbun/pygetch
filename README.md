@@ -17,7 +17,7 @@ python3 -m pip install --user getch-mvonbun
 
 ## Usage
 **Import** the module to get single characters from the command line without the
-need to hit <ENTER> every single time. An example from ipython3:
+need to hit <ENTER> every single time. An example from `ipython3`:
 ``` python
 In [1]: import pygetch.getch as pygetch
 
