@@ -70,7 +70,7 @@ class _GetchWindows:
 # demo
 if __name__ == '__main__':
     # class instantiate
-    getch = _Getch()
+    getch = Getch()
     print('Repeatedly type single characters.\nPress [q] to quit.')
 
     # loop init
